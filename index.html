@@ -7,27 +7,25 @@
     <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
     <title>Document</title>
     <link rel="stylesheet" href="custom.css">
+    
 </head>
 <body>
     <!--Header-->
     <header>
-        <div class="header">
-            <nav>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars fa-2x"></i>
-                </label>
-                <div class="logo">
+        <div class="container">
+            <div class="header">
+                <nav>
                     <img src="/images/Ennie2.png" alt="" width="60px" class="img">
-                </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#"><i class="fas fa-user"></i></a></li>
-                </ul>
-            </nav>
+                    <button class="toggle"><i class="fas fa-bars fa-2x"></i></button>
+                    <ul class="navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#"><i class="fas fa-user"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <!--Header Ends Here-->
@@ -36,12 +34,14 @@
 
     <!--SHOWCASE-->
     <section class="showcase">
-        <div>
-            <h1>Boost Up Your Skills With A <br />
-                New Way Of Learning  </h1>
-            <p> - We provide always our best services for our clients and always try to achieve our client's trust and satisfaction</p>
-            <button type="submit" class="btn btn2">JOIN US</button>
-            <button type="submit" class="btn btn3">READ MORE</button>
+        <div class="container">
+            <div>
+                <h1>Boost Up Your Skills With A <br />
+                    New Way Of Learning  </h1>
+                <p> - We provide always our best services for our clients and always try to achieve our client's trust and satisfaction</p>
+                <button type="submit" class="btn btn2">JOIN US</button>
+                <button type="submit" class="btn btn3">READ MORE</button>
+            </div>
         </div>
     </section>
     <!--END OF SHOWCASE-->
@@ -51,121 +51,124 @@
     <!--GRID AREA-->
     <section class="grid">
         <div class="container">
-            <div class="large">
-                <i class="fas fa-quote-left fa-2x"></i> 
-                <h1>Learn French The Easiest Way</h1>
-                <div class="flex">
-                    <div class="french">
-                        <i class="fas fa-users fa-3x"></i>
-                        <h4><span class="coloured">220 MILLION</span> <br>FRENCH SPEAKERS <br> WORLDWIDE</h4>
+            <div class="container-el">
+                <div class="large">
+                    <i class="fas fa-quote-left fa-2x"></i> 
+                    <h1>Learn French The Easiest Way</h1>
+                    <div class="flex">
+                        <div class="french">
+                            <i class="fas fa-users fa-3x"></i>
+                            <h4><span class="coloured">220 MILLION</span> <br>FRENCH SPEAKERS <br> WORLDWIDE</h4>
+                        </div>
+                        <div class="french">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                            <h4><span class="coloured">120 MILLION</span> <br>PEOPLE LEARN <br> FRENCH</h4>
+                        </div>
+                        <div class="french">
+                            <i class="fas fa-trophy fa-3x"></i>
+                            <h4><span class="coloured">SECOND </span><br>MOST LEARNED <br> LANGUAGE <br> IN THE EU</h4>
+                        </div>
                     </div>
-                    <div class="french">
-                        <i class="fas fa-chart-line fa-3x"></i>
-                        <h4><span class="coloured">120 MILLION</span> <br>PEOPLE LEARN <br> FRENCH</h4>
+                    <button type="submit"></button>
+    
+    
+                    <!--FORM HERE-->
+                    <div class="form">   
+                        <div class="form-header">
+                            <h2>Book a class now</h2>
+                        </div>
+                        <form action="">
+                            <div class="form-container">
+                                <label for="FirstName">FirstName</label>
+                                <input type="text" required>
+                            </div>
+                            <div class="form-container">
+                                <label for="LasttName">LastName</label>
+                                <input type="text" required>
+                            </div>
+                            <div class="form-container">
+                                <label for="Email">Email</label>
+                                <input type="email">
+                            </div>
+                            <button type="submit" class="btn3 btn4">Submit</button>
+                        </form>
                     </div>
-                    <div class="french">
-                        <i class="fas fa-trophy fa-3x"></i>
-                        <h4><span class="coloured">SECOND </span><br>MOST LEARNED <br> LANGUAGE <br> IN THE EU</h4>
+                    <!--FORM ENDS HERE-->
+    
+    
+                </div>
+                <div class="box-a side">
+                    <h3>PLATINUM</h3>
+                    <p class="price">$120/Month</p>
+                    <button type="submit" class="btn">Enroll Now</button>
+                </div>
+                <div class="box-b side">
+                    <h3>SILVER</h3>
+                    <p class="price">$73/Month</p>
+                    <button type="submit" class="btn">Enroll Now</button>
+                </div>
+                <div class="box-c side">
+                    <h3>BRONZE</h3>
+                    <p class="price">$50/Month</p>
+                    <button type="submit" class="btn">Enroll Now</button>
+                </div>
+            </div>
+    
+            <!--BOXES HERE-->
+            <div class="boxes">
+                <div class="box  one">
+                    <i class="fas fa-chart-pie fa-3x"></i>
+                    <div class="text">
+                      <h4>Analytics</h4>
+                      <p>dummy text here well see to that later just skip dont bother to read tgis okay lolololol  ohh o thinkthis is enough yeah let get to work </p>
                     </div>
                 </div>
-                <button type="submit"></button>
-
-
-                <!--FORM HERE-->
-                <div class="form">   
-                    <div class="form-header">
-                        <h2>Book a class now</h2>
+                <div class="box two">
+                    <i class="fas fa-copy fa-3x"></i>
+                    <div class="text">
+                      <h4>Latest Courses</h4>
+                      <p>dummy text here well see to that later just skip dont bother to read tgis okay lolololol  ohh o thinkthis is enough yeah let get to work </p>
                     </div>
-                    <form action="">
-                        <div class="form-container">
-                            <label for="FirstName">FirstName</label>
-                            <input type="text" required>
-                        </div>
-                        <div class="form-container">
-                            <label for="LasttName">LastName</label>
-                            <input type="text" required>
-                        </div>
-                        <div class="form-container">
-                            <label for="Email">Email</label>
-                            <input type="email">
-                        </div>
-                        <button type="submit" class="btn3 btn4">Submit</button>
-                    </form>
                 </div>
-                <!--FORM ENDS HERE-->
-
-
+                <div class="box  three">
+                    <i class="fas fa-award fa-3x"></i>
+                    <div class="text">
+                        <h4>Certificate</h4>
+                        <p>dummy text here well see to that later just skip dont bother to read tgis okay lolololol  ohh o thinkthis is enough yeah let get to work </p>
+                    </div>
+                </div>
+                <div class="box four">
+                    <i class="fas fa-bookmark fa-3x"></i>
+                    <div class="text">
+                      <h4>Assessment</h4>
+                      <p>dummy text here well see to that later just skip dont bother to read tgis okay lolololol  ohh o thinkthis is enough yeah let get to work </p>
+                    </div>
+                </div>
             </div>
-            <div class="box-a side">
-                <h3>PLATINUM</h3>
-                <p class="price">$120/Month</p>
-                <button type="submit" class="btn">Enroll Now</button>
-            </div>
-            <div class="box-b side">
-                <h3>SILVER</h3>
-                <p class="price">$73/Month</p>
-                <button type="submit" class="btn">Enroll Now</button>
-            </div>
-            <div class="box-c side">
-                <h3>BRONZE</h3>
-                <p class="price">$50/Month</p>
-                <button type="submit" class="btn">Enroll Now</button>
-            </div>
+             <!--BOXES ENDS HERE-->
+    
+    
+            <div class="info">
+                <img src="/images/Ennie2.png" alt="okayyy" width="200px" class="image">
+                <div class="bio">
+                    <h1>Bio</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, reprehenderit ad, distinctio accusantium illum natus vero nobis ipsum eum tempora placeat, vitae tenetur! Dolores vero perferendis eum maiores magni velit.lorem Lorem ipsum dolor sit amet ctrum quia, perspiciatis praesentium iure neque quos in atque fugit eaque architecto nisi, porro totam voluptatem. Quisquam officia, ducimus quaerat veritatis eligendi unde possimus?</p>
+                    <div class="follow">
+                        <h3>Follow Us</h3>
+                        <div class="logos">
+                          <img src="/images/Icon1.png" alt="" class="icon"/>
+                          <img src="/images/Icon2.png" alt="" class="icon"/>
+                          <img src="/images/Icon8.png" alt="" class="icon"/>
+                          <img src="/images/Icon9.png" alt="" class="icon"/>
+                          <img src="/images/Icon5.png" alt="" class="icon"/>
+                          <img src="/images/Icon10.png" alt="" class="icon"/>
+                          <img src="/images/Icon7.png" alt="" class="icon"/>
+                          <img src="/images/Icon11.png" alt="" class="icon"/>
+                     </div>
+                </div>
+            </div> 
         </div>
-
-        <!--BOXES HERE-->
-        <div class="boxes">
-            <div class="box">
-                <i class="fas fa-chart-pie fa-3x"></i>
-                <div class="text">
-                  <h4>Analytics</h4>
-                  <p>dummy text here well see to that later just skip dont bother to read tgis okay lolololol  ohh o thinkthis is enough yeah let get to work </p>
-                </div>
-            </div>
-            <div class="box">
-                <i class="fas fa-copy fa-3x"></i>
-                <div class="text">
-                  <h4>Latest Courses</h4>
-                  <p>dummy text here well see to that later just skip dont bother to read tgis okay lolololol  ohh o thinkthis is enough yeah let get to work </p>
-                </div>
-            </div>
-            <div class="box">
-                <i class="fas fa-award fa-3x"></i>
-                <div class="text">
-                    <h4>Certificate</h4>
-                    <p>dummy text here well see to that later just skip dont bother to read tgis okay lolololol  ohh o thinkthis is enough yeah let get to work </p>
-                </div>
-            </div>
-            <div class="box">
-                <i class="fas fa-bookmark fa-3x"></i>
-                <div class="text">
-                  <h4>Assessment</h4>
-                  <p>dummy text here well see to that later just skip dont bother to read tgis okay lolololol  ohh o thinkthis is enough yeah let get to work </p>
-                </div>
-            </div>
-        </div>
-         <!--BOXES ENDS HERE-->
-
-
-        <div class="info">
-            <img src="/images/Ennie2.png" alt="okayyy" width="200px" class="image">
-            <div class="bio">
-                <h1>Bio</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, reprehenderit ad, distinctio accusantium illum natus vero nobis ipsum eum tempora placeat, vitae tenetur! Dolores vero perferendis eum maiores magni velit.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nihil repudiandae rerum eum, pariatur suscipit ipsam nostrum quia, perspiciatis praesentium iure neque quos in atque fugit eaque architecto nisi, porro totam voluptatem. Quisquam officia, ducimus quaerat veritatis eligendi unde possimus?</p>
-                <div class="follow">
-                    <h3>Follow Us</h3>
-                    <div class="logos">
-                      <img src="images/Icon1.png" alt="" class="icon"/>
-                      <img src="images/Icon2.png" alt="" class="icon"/>
-                      <img src="images/Icon8.png" alt="" class="icon"/>
-                      <img src="images/Icon9.png" alt="" class="icon"/>
-                      <img src="images/Icon5.png" alt="" class="icon"/>
-                      <img src="images/Icon10.png" alt="" class="icon"/>
-                      <img src="images/Icon7.png" alt="" class="icon"/>
-                      <img src="images/Icon11.png" alt="" class="icon"/>
-                 </div>
-            </div>
-        </div> 
+        
     </section>
     <!--END OF GRID AREA-->
    
@@ -174,5 +177,19 @@
     <footer>
         <p>Olawoyin GboLaHan, copyright &copy; 2021</p>
     </footer>
+
+    <script>
+        //decalare variable
+        const toggleMenu = document.querySelector(".toggle");
+        const Navigation = document.querySelector(".navbar");
+
+        //Add event listeners
+        toggleMenu.addEventListener('click', displayNav);
+
+        //call a fucntion
+        function displayNav(){
+            Navigation.classList.toggle('show')
+        };
+    </script>
 </body>
 </html>
